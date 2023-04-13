@@ -8,6 +8,7 @@ const reverseString = function(string) {
         let lastLetter = resultString.slice(-1);
         resultString = resultString.slice(0, -1);
         result += lastLetter;
+        // return string.split("").reverse().join("");
 
 
 
