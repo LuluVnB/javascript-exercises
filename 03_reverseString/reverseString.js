@@ -1,7 +1,7 @@
 const reverseString = function(string) {
     let result = "";
+    if(string.length == 0) return null;
     for(let i = 0; i < string.length; i++){
-        if(string.length == 0) return null;
         
         
         let resultString = string;
@@ -9,7 +9,7 @@ const reverseString = function(string) {
         resultString = resultString.slice(0, -1);
         result += lastLetter;
         // return string.split("").reverse().join("");
-
+`       `
 
 
 
